@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/inspectorreact/static/css/main.8b85baac.chunk.css",
+    "main.js": "/inspectorreact/static/js/main.ea845492.chunk.js",
+    "main.js.map": "/inspectorreact/static/js/main.ea845492.chunk.js.map",
+    "runtime-main.js": "/inspectorreact/static/js/runtime-main.6bae7daf.js",
+    "runtime-main.js.map": "/inspectorreact/static/js/runtime-main.6bae7daf.js.map",
+    "static/js/2.6d421fed.chunk.js": "/inspectorreact/static/js/2.6d421fed.chunk.js",
+    "static/js/2.6d421fed.chunk.js.map": "/inspectorreact/static/js/2.6d421fed.chunk.js.map",
+    "index.html": "/inspectorreact/index.html",
+    "precache-manifest.3b9e4865f669ddcfd7e3a30574786161.js": "/inspectorreact/precache-manifest.3b9e4865f669ddcfd7e3a30574786161.js",
+    "service-worker.js": "/inspectorreact/service-worker.js",
+    "static/css/main.8b85baac.chunk.css.map": "/inspectorreact/static/css/main.8b85baac.chunk.css.map",
+    "static/js/2.6d421fed.chunk.js.LICENSE.txt": "/inspectorreact/static/js/2.6d421fed.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6bae7daf.js",
+    "static/js/2.6d421fed.chunk.js",
+    "static/css/main.8b85baac.chunk.css",
+    "static/js/main.ea845492.chunk.js"
+  ]
+}
