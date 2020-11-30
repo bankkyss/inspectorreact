@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.home,
+.reports,
+.products {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) {
+  .errorLogin{
+    margin-left: 10px;
+    font-size: 15px;
+    color:red;
+  }
+  input{
+    appearance: black;
+    border-radius: 5px;
+    background: none;
+    height: 40px;
+    font-size: 20px;
+    size: 4vmax;
+    outline: black;
+    padding:  10px; 
+    box-shadow:0 1px 1px rgba(0,0,0,0.1),0 2px 2px rgba(0,0,0,0.1),0 4px 4px rgba(0,0,0,0.1),0 8px 8px rgba(0,0,0,0.1),0 16px 16px rgba(0,0,0,0.1),0 32px 32px rgba(0,0,0,0.1);
+    
+    
+    
+  }
+  form {
+    display: block;
+    position: relative;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    
+    box-shadow:0 1px 1px rgba(0,0,0,0.21),0 2px 2px rgba(0,0,0,0.21),0 4px 4px rgba(0,0,0,0.21),0 8px 8px rgba(0,0,0,0.21),0 16px 16px rgba(0,0,0,0.21),0 32px 32px rgba(0,0,0,0.21);
+    border: 30px;
+    width: 300px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    }
+  .mainlogin{
+    background-image: linear-gradient( rgb(163, 142, 240),rgb(59, 132, 243));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }  
+h2{
+margin-left: 10%;
+color: rgb(0, 0, 0);
+font-size: 7vh;
+font-family: 'Lato', sans-serif;
+margin-bottom: 10%;
+margin-top: 10%
+;
+}
+.headerLogin{
+  border-top: 30px;
+  display: flex;
+  align-items: center;
+}
+.from-inner{
+  border-top: 10px;
+  margin-left: 30px;
+  font-size: 30px;
+  display: inline-table;
+  align-content: center;
+}
+.bottoms{
+  margin-top: 30px;
+  margin-left: -30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+label{
+  font-size: 20px;
+  color: #000;
+}
+}
+.from-group{
+  margin: 10px;
+  border-top: 10px;
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 568px) 
+and (max-device-width : 1024px) {
+  .errorLogin{
+    margin-left: 20px;
+    font-size: 30px;
+    color:red;
+  }
+  label{
+    font-size: 40px;
+    color: #000;
+  }
+  input{
+    padding:  10px; 
+    appearance: black;
+    border-radius: 5px;
+    background: none;
+    border: black;
+    font-size: 45px;
+    size: 35px;
+    outline: black;
+    box-shadow:0 1px 1px rgba(0,0,0,0.1),0 2px 2px rgba(0,0,0,0.1),0 4px 4px rgba(0,0,0,0.1),0 8px 8px rgba(0,0,0,0.1),0 16px 16px rgba(0,0,0,0.1),0 32px 32px rgba(0,0,0,0.1);
+    
+    
+  }
+  form {
+    display: block;
+    position: relative;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    box-shadow:0 1px 1px rgba(0,0,0,0.21),0 2px 2px rgba(0,0,0,0.21),0 4px 4px rgba(0,0,0,0.21),0 8px 8px rgba(0,0,0,0.21),0 16px 16px rgba(0,0,0,0.21),0 32px 32px rgba(0,0,0,0.21);
+    border: 60px;
+    width: 600px;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    }
+  .mainlogin{
+    background-image: linear-gradient( rgb(163, 142, 240),rgb(59, 132, 243));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }  
+h2{
+margin-left: 10%;
+color: rgb(0, 0, 0);
+font-size: 7vh;
+font-family: 'Lato', sans-serif;
+margin-bottom: 10%;
+margin-top: 5%
+;
+}
+.headerLogin{
+  display: flex;
+  align-items: center;
+}
+.from-inner{
+  margin-left: 40px;
+  font-size: 60px;
+  display: inline-table;
+  align-content: center;
+}
+.bottoms{
+  margin-top: 50px;
+  display: flex;
+  margin-left: -60px;
+  align-items: center;
+  justify-content: center;
+}
+}
+.from-group{
+  margin: 10px;
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+  .errorLogin{
+    
+    margin-top: -18px;
+    margin-left: 10px;
+    font-size: 15px;
+    color:red;
+  }
+  label{
+    font-size: 20px;
+    color: #000;
+  }
+  input{
+    appearance: none;
+    border-radius: 5px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    size: 4vmax;
+    outline: none;
+    
+  }
+  form {
+    display: block;
+    position: relative;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    box-shadow:0 1px 1px rgba(0,0,0,0.21),0 2px 2px rgba(0,0,0,0.21),0 4px 4px rgba(0,0,0,0.21),0 8px 8px rgba(0,0,0,0.21),0 16px 16px rgba(0,0,0,0.21),0 32px 32px rgba(0,0,0,0.21);
+    border: 30px;
+    width: 400px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    }
+  .mainlogin{
+    /* background-color:white; */
+    background-image: linear-gradient( rgb(163, 142, 240),rgb(59, 132, 243));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }  
+h2{
+margin-left: 10%;
+color: rgb(0, 0, 0);
+font-size: 7vh;
+font-family: 'Lato', sans-serif;
+margin-bottom: 10%;
+margin-top: 5%
+;
+}
+.headerLogin{
+  display: flex;
+  align-items: center;
+}
+.from-inner{
+  margin-left: 40px;
+  font-size: 30px;
+  display: inline-table;
+  align-content: center;
+}
+.bottoms{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+}
+.from-group{
+  margin: 10px;
+}
