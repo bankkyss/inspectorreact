@@ -1,26 +1,27 @@
 import React,{useState} from 'react';
 import './App.css';
+import Axios from "axios";
 //import Navbar from './components/Navbar';
 //import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-// import Home from './pages/Home';
-// import Reports from './pages/Reports';
-// import Products from './pages/Products';
 import UseMain from './components/UseMain'
 import LoginForm from './components/LoginForm'
 
 function App() {
-  const adminUser={
-    loginnName:"1",
-    password:'2'
-  }
+
 
   const [user, setUser] = useState({loginnName:"",password:''});
   const [error, setError] = useState('');
+  const [logindetail, setlogindetail] = useState('');
   const login=details=>{
-    console.log(details);
-    if (details.loginnName===adminUser.loginnName && details.password===adminUser.password){
+    Axios.post('https://apiserer-bankky.glitch.me/api/login',{
+      username:details.loginnName,
+      password:details.password
+    }).then(res => setlogindetail(res.statusText))
+    //if (details.loginnName===adminUser.loginnName && details.password===adminUser.password){
+     console.log(logindetail)
+    if (logindetail==='bankky'){
       console.log('Logged In');
-      setUser({loginnName:details.loginnName,password:adminUser.password})
+      setUser({loginnName:details.loginnName,password:details.password})
     }else{
       setError('username not match')
     }
