@@ -13,14 +13,17 @@ function App() {
   const [error, setError] = useState('');
   const [logindetail, setlogindetail] = useState('');
   const login=details=>{
-    Axios.post('https://apiserer-bankky.glitch.me/api/login',{
+    Axios.post('https://testapibanky.glitch.me/api/login',{
       username:details.loginnName,
       password:details.password
-    }).then(res => setlogindetail(res.statusText))
+    })
+    .then(res=>{
+
+      setlogindetail(res.data[0].dreams)
+    })
+    //.then(res => setlogindetail(res.statusText))
     //if (details.loginnName===adminUser.loginnName && details.password===adminUser.password){
-     console.log(logindetail)
     if (logindetail==='bankky'){
-      console.log('Logged In');
       setUser({loginnName:details.loginnName,password:details.password})
     }else{
       setError('username not match')

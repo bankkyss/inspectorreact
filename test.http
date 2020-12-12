@@ -1,0 +1,7 @@
+POST https://testapibanky.glitch.me/api/login HTTP/1.1
+Content-Type: application/json
+
+{
+      username:details.loginnName,
+      password:details.password
+    }
